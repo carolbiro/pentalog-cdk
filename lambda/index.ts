@@ -89,8 +89,6 @@ export async function handler(event: APIGatewayEvent) {
       statusCode: 200,
       body: JSON.stringify(result),
     };
-
-    // Rest of your code...
   } catch (error: any) {
     console.log("Error :::: ", JSON.stringify(error));
     return {
