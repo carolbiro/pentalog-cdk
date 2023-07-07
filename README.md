@@ -64,7 +64,7 @@ Run the following commands to deploy to an AWS account in the project's root fol
 
 ## Areas of improvement
 
-1. Error Handling: Consider improving the error handling by providing more informative error messages or logging detailed error information for troubleshooting purposes.
-2. Security: Ensure that appropriate security measures are in place, such as proper handling of API keys and validating user inputs to prevent security vulnerabilities like injection attacks.
+1. Error Handling: could be improved by providing more informative error messages or logging detailed error information for troubleshooting purposes.
+2. Security: could be improved by proper handling of API key and validating user inputs to prevent security vulnerabilities like injection attacks.
 3. Deployment Pipeline: Set up a continuous integration and deployment (CI/CD) pipeline to automate the deployment process, including building, testing, and deploying the AWS CDK stack.
 4. Performance Optimization: Analyze the performance of the Lambda function and the API Gateway to identify potential optimizations, such as caching, request/response compression, or provisioned concurrency, to improve overall system performance.
